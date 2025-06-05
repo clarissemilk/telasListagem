@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("img/background.jpeg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+header {
+  background-color: #6b3fa0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .active a {
+  background-color: #8d5bc3;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.product-section {
+  margin: 30px auto;
+  width: 90%;
+  background-color: #7838b1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.new-product-btn {
+  background-color: #36e28a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.product-list {
+  background-color: #dcd0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.product-item {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
