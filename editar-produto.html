@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Editar Produto - Nutry e Degust</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="editar-produto.css">
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="Logo Nutry & Degust" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Estoque</a></li>
+        <li class="active"><a href="#">Produtos</a></li>
+        <li><a href="#">Pedidos</a></li>
+        <li><a href="#">Vendas</a></li>
+        <li><a href="#">Clientes</a></li>
+        <li><a href="#">Fornecedores</a></li>
+        <li><a href="#">Funcionários</a></li>
+        <li><a href="#">Relatórios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="form-page">
+    <form class="product-form">
+      <h2>Preencha as informações do Produto:</h2>
+      <div class="image-upload">
+        <img src="img/coca.png" alt="Produto" class="product-image">
+        <button type="button">Atualize a imagem<br>máx. 15MB</button>
+      </div>
+      <span class="status-msg">Editado com Sucesso!</span>
+      <div class="form-group">
+        <label>Nome do Produto:</label>
+        <input type="text" value="Ex.: Coca-Cola Lata">
+      </div>
+      <div class="form-group">
+        <label>Código do Produto:</label>
+        <input type="text" value="Ex.: 123452">
+      </div>
+      <div class="form-group">
+        <label>Descrição do Produto:</label>
+        <input type="text" value="Ex.: Refrigerante">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Preço do Produto:</label>
+          <input type="text" value="Ex.: R$ 5,00">
+        </div>
+        <div class="form-group">
+          <label>Preço pago pelo Prod.:</label>
+          <input type="text" value="Ex.: R$ 2,50">
+        </div>
+        <div class="form-group">
+          <label>Data de Validade:</label>
+          <input type="text" value="Ex.: 12/04/2025">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Nome do Fornecedor:</label>
+        <input type="text" value="Ex.: Armazém das Bebidas">
+      </div>
+      <div class="form-buttons">
+        <button type="submit" class="btn-salvar">Salvar</button>
+        <button type="button" class="btn-cancelar">Cancelar</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

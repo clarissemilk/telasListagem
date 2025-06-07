@@ -1,0 +1,116 @@
+.form-page {
+  background-image: url("img/background.jpeg");
+  background-size: cover;
+  background-repeat: repeat;
+  min-height: 100vh;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.product-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #888;
+  max-width: 700px;
+  width: 100%;
+}
+
+.product-form h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.image-upload {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-upload button {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#ccc, #eee);
+  border: 1px solid #999;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.image-upload span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.product-image {
+  width: 60px;
+  height: 90px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.status-msg {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  padding: 6px;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.btn-salvar,
+.btn-cancelar {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-salvar {
+  background-color: #ccc;
+}
+
+.btn-cancelar {
+  background-color: #eee;
+}
